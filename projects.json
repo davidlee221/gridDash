@@ -1,0 +1,22 @@
+{
+    "projects": [
+        {"title": "Super Cool Project", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum imperdiet eros nec mollis."},
+        {"title": "Less Cool Project", "description": "Cras dictum lacus ullamcorper libero tempor ultrices. Pellentesque et orci vel diam ornare faucibus in at nunc."},
+        {"title": "Impossible App", "description": "Fusce id erat sit amet felis tincidunt lacinia. Etiam sed tortor porta, bibendum nibh commodo, consectetur dui. "},
+        {"title": "Easy Peasy App", "description": "Nulla facilisi. Aliquam erat volutpat. Sed nisl nibh, ultricies ut ultricies eget, dignissim vehicula dolor. Duis a sapien velit. Ut euismod est sed orci ornare, in convallis magna feugiat."},
+        {"title": "Ad Blocker", "description": "Donec risus ipsum, posuere non vestibulum vel, ultrices quis justo. Vestibulum cursus magna non elit elementum posuere."},
+        {"title": "Money Maker", "description": "Nulla sit amet tempus mi. Nam eget neque tortor. Vestibulum aliquet elit ac fermentum pellentesque."}
+    ],
+    "announcements": [
+        {"title": "Fix Mah Site", "description": "Vestibulum ornare faucibus augue, id elementum tortor condimentum non."},
+        {"title": "Sharing is Caring", "description": "Suspendisse rhoncus leo mauris, ut vestibulum quam venenatis quis."},
+        {"title": "Updated Privacy Policy", "description": "Praesent non enim mattis, gravida purus a, ullamcorper ligula."},
+        {"title": "Clarity is Kindness", "description": " Nullam accumsan eleifend sem commodo tincidunt. Quisque at sapien purus."}
+    ],
+    "trending": [
+        {"user": "mitya", "name": "Dmitry Karamazov", "description": "second oldest, second best", "url": "img/person-1.png"},
+        {"user": "alyosha", "name": "Fyodor Dostoevsky", "description": "third and most profound", "url": "img/person-2.png"},
+        {"user": "ivan", "name": "Ivan Ivanovich", "description": "oldest but missing the mark", "url": "img/person-3.png"},
+        {"user": "jin", "name": "Daviders", "description": "where did he come from?", "url": "img/person-4.png"}
+    ]
+}

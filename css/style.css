@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  --semi-transparent: rgba(10,10,10,.5);
+  --left-area-width: 33vw;
+  --yellow: rgb(231, 183, 74);
+  --blue: rgb(69,144,207);
+  --lightgray: rgb(227,232, 239);
+}
+
+.content-area {
+  display: grid;
+  grid-template-columns: 280px calc(100vw - 300px);
+  grid-template-rows: 180px calc(100vh - 200px);
+  color: #000;
+  background-color: #EAEDF0;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+.content-area .sidebar {
+  background-color: var(--blue);
+  color: white;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.content-area .sidebar img {
+  margin: 0.2rem 1rem;
+}
+.content-area .sidebar .sidebar-separator {
+  margin: 2rem 0rem;
+}
+.content-area .sidebar div > div {
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
+}
+.content-area .top-section {
+  padding: 1rem 3rem;
+  background-color: white;
+  box-shadow: #000;
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+.content-area .top-section .top-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.content-area .top-section .search-area {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.content-area .top-section .search-area #search-bar {
+  width: 40rem; /* Set width */
+  padding: 3px; /* Add padding */
+  border-radius: 2rem; /* Add border radius */
+  font-size: 1rem; /* Set font size */
+  color: blue;
+}
+.content-area .top-section .top-right-area {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.content-area .top-section .top-right-area img {
+  height: auto;
+}
+.content-area .top-section .top-right-area .sm-user-area {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  font-weight: bolder;
+}
+.content-area .top-section .top-right-area .sm-user-area img {
+  margin-right: 1rem;
+}
+.content-area .top-section .second-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-area .top-section .second-area button {
+  background-color: var(--blue);
+  border-radius: 10rem;
+  color: white;
+  border: none;
+  padding: 0.25rem 1.25rem;
+  margin-left: 1rem;
+  font-size: 1.05rem;
+}
+.content-area .top-section .second-area .lg-user-area {
+  display: flex;
+  font-weight: bolder;
+}
+.content-area .top-section .second-area .lg-user-area img {
+  margin-right: 1rem;
+}
+.content-area .top-section .second-area .lg-user-area .welcome-text {
+  font-size: 0.8rem;
+}
+.content-area .top-section .second-area .lg-user-area .user-text {
+  font-size: 1.2rem;
+}
+.content-area .main-area {
+  padding-top: 50px;
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+.content-area .main-area .project-area {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 30px;
+  column-gap: 30px;
+}
+.content-area .main-area .project-area .project-entry {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-left: var(--yellow) 8px solid;
+  border-radius: 0.5rem;
+  padding: 30px;
+}
+.content-area .main-area .project-area .project-entry .project-action-area {
+  text-align: end;
+}
+.content-area .main-area .project-area .project-entry .project-action-area .project-action-icon {
+  margin: 0rem 0.4rem;
+}
+.content-area .main-area .right-bar {
+  margin-left: 2rem;
+}
+.content-area .main-area .right-bar .announce-container {
+  margin-bottom: 2rem;
+}
+.content-area .main-area .right-bar .announce-container .announce-area {
+  margin-top: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+.content-area .main-area .right-bar .announce-container .announce-area .announce-entry {
+  padding: 1.2rem;
+  margin: 0rem 2rem;
+  border-bottom: 1px #ccc solid;
+}
+.content-area .main-area .right-bar .announce-container .announce-area .announce-entry p {
+  font-size: 0.7rem;
+}
+.content-area .main-area .right-bar .trend-container .trend-area {
+  margin-top: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+.content-area .main-area .right-bar .trend-container .trend-area .trend-entry {
+  display: flex;
+  padding: 1rem;
+}
+.content-area .main-area .right-bar .trend-container .trend-area .trend-entry .trend-icon {
+  margin-right: 1rem;
+  height: auto;
+}
+.content-area .main-area .right-bar .trend-container .trend-area .trend-entry .trend-tag {
+  font-weight: bolder;
+}
+.content-area .main-area .right-bar .trend-container .trend-area .trend-entry .trend-desc {
+  color: #666;
+}
+
+footer {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

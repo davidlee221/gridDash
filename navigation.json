@@ -1,0 +1,12 @@
+[
+    {"label": "Dashboard", "url": "img/dashboard.png", "area": "header"} ,
+    {"label": "Home", "url": "img/home.png", "area": "nav"},
+    {"label": "Profile", "url": "img/profile.png", "area": "nav"},
+    {"label": "Messages", "url": "img/messages.png", "area": "nav"},
+    {"label": "History", "url": "img/history.png", "area": "nav"},
+    {"label": "Tasks", "url": "img/tasks.png", "area": "nav"},
+    {"label": "Communities", "url": "img/communities.png", "area": "nav"},
+    {"label": "Settings", "url": "img/settings.png", "area": "footer"},
+    {"label": "Support", "url": "img/support.png", "area": "footer"},
+    {"label": "Privacy", "url": "img/privacy.png", "area": "footer"}
+]

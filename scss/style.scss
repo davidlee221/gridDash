@@ -1,0 +1,184 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    --semi-transparent: rgba(10,10,10,.5);
+    --left-area-width: 33vw;
+    --yellow: rgb(231, 183, 74);
+    --blue: rgb(69,144,207);
+    --lightgray: rgb(227,232, 239);
+  }
+  
+  .content-area {
+    display: grid;
+    grid-template-columns: 280px calc(100vw - 300px);
+    grid-template-rows: 180px calc(100vh - 200px);
+    .sidebar {
+      background-color: var(--blue);
+      color: white;
+      img {
+        margin: 0.2rem 1rem;
+      }
+      .sidebar-separator{
+        margin: 2rem 0rem;
+      }
+      div > div {
+        padding: 0.3rem;
+        display: flex;
+        align-items: center;
+      }
+      grid-row-start: 1;
+      grid-row-end: 5;
+    }
+    .top-section {
+        padding: 1rem 3rem;
+        background-color: white;
+        box-shadow: #000;
+        display: grid;
+        .top-top-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+        .search-area {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            #search-bar {
+                width: 40rem; /* Set width */
+                padding: 3px; /* Add padding */
+                border-radius: 2rem; /* Add border radius */
+                font-size: 1rem; /* Set font size */
+                color: blue;
+            }    
+        }
+        .top-right-area {
+            display: flex;
+            justify-content: space-between;
+            gap: 2rem;
+            img {
+                height: auto;
+            }
+            .sm-user-area {
+                img {
+                    margin-right: 1rem;
+                }
+                display: flex;
+                align-items: center;
+                white-space: nowrap;
+                font-weight: bolder;
+            }
+        }
+        .second-area {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            button {
+                background-color: var(--blue);
+                border-radius: 10rem;
+                color: white;
+                border: none;
+                padding: 0.25rem 1.25rem;
+                margin-left: 1rem;
+                font-size: 1.05rem;
+            }
+            .lg-user-area {
+                img {
+                    margin-right: 1rem;
+                }
+                display:flex;
+                font-weight: bolder;
+                .welcome-text{
+                    font-size: .8rem;
+                }
+                .user-text{
+                    font-size: 1.2rem;
+                }
+            }
+        
+        }
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+    .main-area {
+        padding-top: 50px;
+        padding-left: 20px;
+        display: grid;
+        grid-template-columns: 75% 25%;
+        // grid-template-rows: 50% 50%;
+        .project-area {
+            margin-top: 1rem;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 30px;
+            column-gap: 30px;
+            .project-entry {
+                display: flex;
+                flex-direction: column;
+                background-color: white;
+                border-left: var(--yellow) 8px solid;
+                border-radius: 0.5rem;
+                padding: 30px;
+                .project-action-area {
+                    text-align: end;
+                    .project-action-icon {
+                        margin: 0rem .4rem;
+                    }
+                }
+            }
+        }
+        .right-bar {
+            margin-left: 2rem;
+            .announce-container {
+                margin-bottom: 2rem;
+                .announce-area {
+                    margin-top: 1rem;
+    
+                    background-color: white;
+                    border-radius: 0.5rem;
+                    .announce-entry {
+                        padding: 1.2rem;
+                        margin: 0rem 2rem;
+                        p {
+                            font-size: .7rem;
+                        }
+                        border-bottom: 1px #ccc solid;
+                    }
+                }
+            }
+            .trend-container {
+                .trend-area {
+                    margin-top: 1rem;
+                    background-color: white;
+                    border-radius: 0.5rem;
+                    .trend-entry {
+                        display: flex;
+                        // margin-left: 1rem;
+                        padding: 1rem;
+                        .trend-icon{
+                            margin-right: 1rem;
+                            height: auto;
+                        }
+                        .trend-tag{
+                            font-weight: bolder;
+                        }
+                        .trend-desc{
+                            color: #666;
+                        }
+                    }
+                }
+            }            
+        }
+
+    }
+    color: #000;
+    background-color: #EAEDF0;
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+  footer {
+    text-align: center;
+  }
+  
