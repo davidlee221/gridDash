@@ -163,7 +163,7 @@
 }
 .content-area .main-area .right-bar .trend-container .trend-area .trend-entry .trend-icon {
   margin-right: 1rem;
-  height: auto;
+  height: 50px;
 }
 .content-area .main-area .right-bar .trend-container .trend-area .trend-entry .trend-tag {
   font-weight: bolder;
